@@ -51,17 +51,36 @@ public class Player : MonoBehaviour
             transform.Rotate(new Vector3(0, angle, 0));
         }
 
-        if(Input.GetKey(KeyCode.W))
+        //if(Input.GetKey(KeyCode.W))
+        //{
+        //    camera.transform.localPosition = new Vector3(-0.2f, 0.61f, 0.09f);
+        //}
+        //if (Input.GetKey(KeyCode.Q))
+        //{
+        //    camera.transform.localPosition = new Vector3(0.0f, 0.72f, -1.53f);
+        //}
+
+        if (Input.GetKey(KeyCode.W))
         {
-            camera.transform.localPosition = new Vector3(-0.2f, 0.61f, 0.09f);
+            transform.Translate(0f, 0f, speed);
         }
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.A))
         {
-            camera.transform.localPosition = new Vector3(0.0f, 0.72f, -1.53f);
+            transform.Rotate(new Vector3(0, -angle, 0));
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(0f, 0f, -speed);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(new Vector3(0, angle, 0));
         }
 
 
-        if(Input.GetKey(KeyCode.Space))
+
+
+        if (Input.GetKey(KeyCode.Space))
         {
             if (!jumpFlag)
             {

@@ -74,10 +74,10 @@
      <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonView.cs" />
      <None Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonUnityNetworking.asmdef" />
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/nhs80417/Desktop/Web_Unity/Web/WebSystem_Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/nhs80443/Desktop/インターン専用/Web_Unity/Web/WebSystem_Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/nhs80417/Desktop/Web_Unity/Web/WebSystem_Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/nhs80443/Desktop/インターン専用/Web_Unity/Web/WebSystem_Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -263,10 +263,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/nhs80417/Desktop/Web_Unity/Web/WebSystem_Unity/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/nhs80443/Desktop/インターン専用/Web_Unity/Web/WebSystem_Unity/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/nhs80417/Desktop/Web_Unity/Web/WebSystem_Unity/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/nhs80443/Desktop/インターン専用/Web_Unity/Web/WebSystem_Unity/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
