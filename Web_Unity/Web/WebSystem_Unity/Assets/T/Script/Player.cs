@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviourPunCallbacks
 {
     [SerializeField]
     private float speed;
@@ -34,62 +35,64 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (photonView.IsMine)
         {
-            transform.Translate(0f, 0f, speed);
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.Translate(0f, 0f, -speed);
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.Rotate(new Vector3(0, -angle, 0));
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.Rotate(new Vector3(0, angle, 0));
-        }
-
-        //if(Input.GetKey(KeyCode.W))
-        //{
-        //    camera.transform.localPosition = new Vector3(-0.2f, 0.61f, 0.09f);
-        //}
-        //if (Input.GetKey(KeyCode.Q))
-        //{
-        //    camera.transform.localPosition = new Vector3(0.0f, 0.72f, -1.53f);
-        //}
-
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(0f, 0f, speed);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Rotate(new Vector3(0, -angle, 0));
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(0f, 0f, -speed);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Rotate(new Vector3(0, angle, 0));
-        }
-
-
-
-
-        if (Input.GetKey(KeyCode.Space))
-        {
-            if (!jumpFlag)
+            if (Input.GetKey(KeyCode.UpArrow))
             {
-                rigidbody.AddForce(transform.up * jumpPower);
-                jumpFlag = true;
+                transform.Translate(0f, 0f, speed);
             }
-                
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                transform.Translate(0f, 0f, -speed);
+            }
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                transform.Rotate(new Vector3(0, -angle, 0));
+            }
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                transform.Rotate(new Vector3(0, angle, 0));
+            }
+
+            //if(Input.GetKey(KeyCode.W))
+            //{
+            //    camera.transform.localPosition = new Vector3(-0.2f, 0.61f, 0.09f);
+            //}
+            //if (Input.GetKey(KeyCode.Q))
+            //{
+            //    camera.transform.localPosition = new Vector3(0.0f, 0.72f, -1.53f);
+            //}
+
+            if (Input.GetKey(KeyCode.W))
+            {
+                transform.Translate(0f, 0f, speed);
+            }
+            if (Input.GetKey(KeyCode.A))
+            {
+                transform.Rotate(new Vector3(0, -angle, 0));
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                transform.Translate(0f, 0f, -speed);
+            }
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.Rotate(new Vector3(0, angle, 0));
+            }
+
+
+
+
+            if (Input.GetKey(KeyCode.Space))
+            {
+                if (!jumpFlag)
+                {
+                    rigidbody.AddForce(transform.up * jumpPower);
+                    jumpFlag = true;
+                }
+
+            }
         }
-        
     }
 
 
