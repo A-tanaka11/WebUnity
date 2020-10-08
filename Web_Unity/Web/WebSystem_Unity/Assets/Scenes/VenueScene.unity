@@ -4058,7 +4058,6 @@ GameObject:
   - component: {fileID: 880942362}
   - component: {fileID: 262973254}
   - component: {fileID: 262973253}
-  - component: {fileID: 262973252}
   - component: {fileID: 262973251}
   m_Layer: 0
   m_Name: Human (2)
@@ -4082,23 +4081,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &262973252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 1687034967}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262973250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &262973253
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10987,7 +10969,6 @@ GameObject:
   - component: {fileID: 1232355462}
   - component: {fileID: 372385017}
   - component: {fileID: 372385016}
-  - component: {fileID: 372385015}
   - component: {fileID: 372385014}
   m_Layer: 0
   m_Name: Human (5)
@@ -11011,23 +10992,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &372385015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 438505778}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372385013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &372385016
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -11922,7 +11886,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c2bf7e75bf1c7146bd9b6d755054417, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!4 &440040781
 Transform:
@@ -12140,7 +12105,6 @@ GameObject:
   - component: {fileID: 1303465689}
   - component: {fileID: 462619551}
   - component: {fileID: 462619550}
-  - component: {fileID: 462619549}
   - component: {fileID: 462619548}
   m_Layer: 0
   m_Name: Human (3)
@@ -12164,23 +12128,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &462619549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 1965518970}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462619547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &462619550
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14659,7 +14606,6 @@ GameObject:
   - component: {fileID: 1855310559}
   - component: {fileID: 659726585}
   - component: {fileID: 659726584}
-  - component: {fileID: 659726583}
   - component: {fileID: 659726582}
   m_Layer: 0
   m_Name: Human (4)
@@ -14683,23 +14629,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &659726583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 1741560890}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 659726581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &659726584
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15221,7 +15150,6 @@ GameObject:
   - component: {fileID: 270528249}
   - component: {fileID: 673821948}
   - component: {fileID: 673821947}
-  - component: {fileID: 673821946}
   - component: {fileID: 673821945}
   m_Layer: 0
   m_Name: Human (4)
@@ -15245,23 +15173,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &673821946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 886023847}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 673821944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &673821947
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16424,7 +16335,6 @@ GameObject:
   - component: {fileID: 1239713829}
   - component: {fileID: 796552540}
   - component: {fileID: 796552539}
-  - component: {fileID: 796552538}
   - component: {fileID: 796552537}
   m_Layer: 0
   m_Name: Human (6)
@@ -16448,23 +16358,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &796552538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 2082330298}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 796552536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &796552539
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -17780,6 +17673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f06433bd4fe3a9f4bbfea279bf96e4de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 1848014532}
 --- !u!4 &865587386
 Transform:
   m_ObjectHideFlags: 0
@@ -18127,7 +18021,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c2bf7e75bf1c7146bd9b6d755054417, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!1 &886419362
 GameObject:
@@ -19055,7 +18950,6 @@ GameObject:
   - component: {fileID: 911717429}
   - component: {fileID: 929942303}
   - component: {fileID: 929942302}
-  - component: {fileID: 929942301}
   - component: {fileID: 929942300}
   m_Layer: 0
   m_Name: Human (6)
@@ -19079,23 +18973,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &929942301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 1464745625}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 929942299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &929942302
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20250,7 +20127,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c2bf7e75bf1c7146bd9b6d755054417, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!1 &1004735542
 GameObject:
@@ -22903,7 +22781,6 @@ GameObject:
   - component: {fileID: 440040781}
   - component: {fileID: 1172962001}
   - component: {fileID: 1172962000}
-  - component: {fileID: 1172961999}
   - component: {fileID: 1172961998}
   m_Layer: 0
   m_Name: Human (5)
@@ -22927,23 +22804,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &1172961999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 1629759661}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172961997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &1172962000
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -26881,7 +26741,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 29f0b5fb084d06b40bed84ac8b585dbd, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!1 &1465017704
 GameObject:
@@ -27047,7 +26908,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c2bf7e75bf1c7146bd9b6d755054417, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!1 &1491441134
 GameObject:
@@ -27220,7 +27082,6 @@ GameObject:
   - component: {fileID: 850629335}
   - component: {fileID: 1499955089}
   - component: {fileID: 1499955088}
-  - component: {fileID: 1499955087}
   - component: {fileID: 1499955086}
   m_Layer: 0
   m_Name: Human
@@ -27244,23 +27105,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &1499955087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 5927471612926323120}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1499955085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &1499955088
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -30420,7 +30264,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c2bf7e75bf1c7146bd9b6d755054417, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!1 &1630880689
 GameObject:
@@ -31054,7 +30899,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c2bf7e75bf1c7146bd9b6d755054417, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!1 &1690441273
 GameObject:
@@ -32084,7 +31930,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c2bf7e75bf1c7146bd9b6d755054417, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!1 &1744738397
 GameObject:
@@ -32977,7 +32824,6 @@ GameObject:
   - component: {fileID: 184285701}
   - component: {fileID: 1833918824}
   - component: {fileID: 1833918823}
-  - component: {fileID: 1833918822}
   - component: {fileID: 1833918821}
   m_Layer: 0
   m_Name: Human (1)
@@ -33001,23 +32847,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &1833918822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 999094943}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833918820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &1833918823
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -33181,6 +33010,89 @@ Transform:
   - {fileID: 5418055}
   m_Father: {fileID: 321541765}
   m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1848014532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1848014535}
+  - component: {fileID: 1848014534}
+  - component: {fileID: 1848014533}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1848014533
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848014532}
+  m_Enabled: 1
+--- !u!20 &1848014534
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848014532}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1848014535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848014532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5797845, y: 3.214549, z: -4.783352}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1850180005
 GameObject:
@@ -34513,7 +34425,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c2bf7e75bf1c7146bd9b6d755054417, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!1 &1968485488
 GameObject:
@@ -36177,7 +36090,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 29f0b5fb084d06b40bed84ac8b585dbd, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!1 &2082948624
 GameObject:
@@ -36710,7 +36624,6 @@ GameObject:
   - component: {fileID: 1885006501}
   - component: {fileID: 2126448932}
   - component: {fileID: 2126448931}
-  - component: {fileID: 2126448930}
   - component: {fileID: 2126448929}
   m_Layer: 0
   m_Name: Human (2)
@@ -36734,23 +36647,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &2126448930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -3668536518354157704, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
-  m_PrefabInstance: {fileID: 1465713989}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2126448928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b39aa4c37b91e8044a10ee1757f7fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.08
-  angle: 0.6
-  stairsUpSpeed: 100
-  camera: {fileID: 0}
-  jumpPower: 300
 --- !u!136 &2126448931
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -37438,6 +37334,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2529216378371233219, guid: 1c4c325a3136b734b87fe92bede0cd83, type: 3}
+      propertyPath: ObservedComponents.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2529216378371233219, guid: 1c4c325a3136b734b87fe92bede0cd83, type: 3}
       propertyPath: viewIdField
       value: 12
       objectReference: {fileID: 0}
@@ -37627,7 +37527,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c2bf7e75bf1c7146bd9b6d755054417, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5127781f79d707445bd2fbef79ec153c, type: 3}
 --- !u!1001 &8223698065081584731
 PrefabInstance:

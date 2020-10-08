@@ -8,7 +8,8 @@ using System.ComponentModel.Design.Serialization;
 
 public class Pun1 : MonoBehaviourPunCallbacks
 {
-    
+    [SerializeField]
+    private GameObject camera;
 
     // Start is called before the first frame update
     void Start()
@@ -62,9 +63,9 @@ public class Pun1 : MonoBehaviourPunCallbacks
         GameObject player = PhotonNetwork.Instantiate("Player", new Vector3(0, 5, 0), Quaternion.identity, 0);
         player.SetActive(true);
         Player playerScript = player.GetComponent<Player>();
-
         playerScript.enabled = true;
-        
+        camera.transform.parent = player.transform;
+        camera.transform.position = player.transform.position;
 
     }
 
